@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> WebPortfolio </div>
+            <div class="nav-links">
+                <button onclick="goToSection('home')" href="#">Home</button>
+                <button onclick="goToSection('achievements')" href="#">Achievements</button>
+                <button onclick="goToSection('Aboutme')" href="#">About me </button>
+                <button onclick="goToSection('contacts')" href="#">Contacts</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello</h1>
+            <h2>I'm Marian Jane Matricio</h2>
+            <p>IT Student</p>
+            <div class="buttons">
+                <button onclick="goToSection('skills')" href="#" class="btn primary">Skills</button>
+                <a href="#" class="btn secondary">More</a>
+            </div>
+            <div class="hero-image">
+                <img src="1759556256666.jpeg" alt="Jane">
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="skills" class="Skills">
+        <h3>Skills</h3>
+            <div class="skills-list">
+                <span>Drawing</span>
+                <span>Baking</span>
+                <span>Understanding</span>
+                
+            </div>
+    </section>
+    <section id="achievements" class="achievements">
+        <h3>Achievements</h3>
+             <div class="achievements-list">
+                <span>Best in Math and Science in Elementary</span>
+                <span>With Honor in Senior High Grade 11</span>
+                <span>With  Honor in Senior HIgh Grade 12</span>
+             </div>
+        
+    </section>
+    
+    <section id="Aboutme" class="about-me">
+        <h2>About me</h2>
+        <p>I am Marian Jane Matricio, 19 yearst old , Second year Student, currently studing Bachelor of Science in Information Technology in Occidental Mindoro State College in Mamburao Campus, I like baking and watching wattpad series .
+    </section>
+    <section id="contacts" class="Contacts">
+        <h2>Contacts</h2>
+        <div class="contact">
+             <li><a href="#">email: marianmatricio@gmail.com</a></li>
+             <li><a href="#">Phone No: 09161376482</a></li>
+        </div>
+        <div class="Socials">
+             <a class="S" href="#">Socials:</a>
+             <li><a href="#">Facebook: Marian Jane</a></li>
+             <li><a href="#">Tiktok: @RIAN</a></li>
+        </div>
+    </section>
+
+    <script src="js.js"></script>
+</body>
+</html>
